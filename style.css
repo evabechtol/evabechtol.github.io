@@ -1,0 +1,147 @@
+@font-face {
+    font-family: bungee;
+    src: url(fonts/Bungee.ttf);
+}
+@font-face {
+    font-family: m;
+    src: url(fonts/merriweather/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: mb;
+    src: url(fonts/merriweather/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: ml;
+    src: url(fonts/merriweather/Merriweather-Light.ttf);
+}
+
+a:hover{
+    color:darkslategrey
+}
+a:link{
+    color:darkslategray;
+    text-decoration: none;
+}
+a:active{
+    color: darkslategrey;
+}
+a:visited{
+    color: darkslategrey;
+}
+.links>a:visited{
+    color:black;
+}
+.links{
+    font-family:ml ;
+    color:black;
+    font-size: 25px;
+    margin:0px 7.5px 0px 7.5px;
+    text-align: right;
+}
+body{
+    text-align:center;
+    background-color: white;
+    /*insert background color later*/
+    margin-top: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    font-size:55px;
+    font-family:'mb';
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: black;
+    display:inline;
+    margin-left:10px;
+    margin-right:10px;
+}
+.line{
+    border: 2px black solid;
+    margin-bottom: 20px;
+    display:inline-block;
+    width:450px;
+}
+#image{
+    display: inline-block;
+    margin-right:90px;
+    position: left;
+}
+.link{
+    font-family: 'ml';
+    font-size: 20px;
+    color: black;
+    text-align: right;
+}
+.text{
+    font: 20px black;
+    font-family: 'm';
+    width: auto;
+    display:inline-block;
+    margin-left:30px;
+    margin-bottom: 0px;
+}
+.tdtext{
+    vertical-align: top;
+    width: 800px;
+}
+.tdimg{
+    width: 400px;
+}
+#table{
+    border-collapse:collapse;
+    margin-top:10px;
+    width = 100%
+}
+#name{
+    font-family: 'ml';
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+.hr{
+    display: inline-block;
+    width: 200px;
+    border: black solid 2px;
+}
+#date{
+    font-family: 'ml';
+    font-size: 20px;
+    color: black;
+    text-align: left; 
+}
+#img{
+    width: 400px;
+    border: 4px solid black;
+}
+#header{
+font-size:26px;
+font-family: "m";
+margin-left: 0px;
+margin-top:10px;
+}
+#paragraph{
+    margin-left:60px;
+    text-align: left;
+}
+.info{
+    text-align: left;
+    margin-left: 80px;
+    font-family: 'm';
+    width: auto;
+    font-size:30px;
+    margin-top: 15px;
+    margin-bottom:0px;
+}
+.list{
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'm';
+    width: auto;
+    font-size:20px;
+    margin-top:0px;
+}
+.cert_date{
+    float: right
+}
